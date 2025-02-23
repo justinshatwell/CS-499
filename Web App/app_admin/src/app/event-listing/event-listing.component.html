@@ -1,0 +1,8 @@
+<div>
+    <button (click)="addEvent()" class="btn btn-info">Add Event</button>
+</div>
+<div class="row">
+    <div *ngFor = "let event of events">
+        <app-event-card [event] = "event" class="card-deck mt-2"></app-event-card>
+    </div>
+</div>
