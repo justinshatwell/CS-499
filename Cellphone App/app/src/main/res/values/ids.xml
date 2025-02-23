@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="main_to_event_button"/>
+    <item type="id" name="main_to_create_button"/>
+    <item type="id" name="event_grid"/>
+    <item type="id" name="listing_title"/>
+    <item type="id" name="listing_image"/>
+    <item type="id" name="listing_date"/>
+    <item type="id" name="purge_button"/>
+    <item type="id" name="refresh_button"/>
+    <item type="id" name="back_button"/>
+</resources>

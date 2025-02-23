@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shatwell_Justin_Milestone2</string>
+    <string name="loginTitle">Welcome!</string>
+    <string name="usernamePrompt">username:</string>
+    <string name="passwordPrompt">password:</string>
+    <string name="loginButton">Log In</string>
+    <string name="createAccountButton">Create Account</string>
+    <string name="sampleEventOne">Exhibit Opening at Linus Gallery</string>
+    <string name="sampleDateOne">Oct. 28 @ 8pm</string>
+    <string name="sampleEventTwo">Concert: The Moose Quartet</string>
+    <string name="sampleDateTwo">Nov. 1 @ 7pm</string>
+    <string name="sampleEventThree">Pints in the Museum!</string>
+    <string name="sampleDateThree">Nov. 8 @ 8pm</string>
+    <string name="delete">Delete</string>
+    <string name="permissionRationale">The app needs access to SMS to send you event reminders</string>
+</resources>

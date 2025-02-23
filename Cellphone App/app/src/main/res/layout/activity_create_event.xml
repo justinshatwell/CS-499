@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_Event">
+
+    <EditText android:id="@+id/eventTitleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style= "@style/loginEditText"
+        app:layout_constraintTop_toTopOf = "parent"
+        android:hint = "Enter Title:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop = "24dp"
+        />
+    <DatePicker
+        android:id = "@+id/eventDatePicker"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        app:layout_constraintTop_toBottomOf = "@id/eventTitleEdit"
+        app:layout_constraintLeft_toLeftOf = "parent"
+        app:layout_constraintRight_toRightOf = "parent"
+        />
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:id = "@+id/eventTimePicker"
+        app:layout_constraintTop_toBottomOf = "@id/eventDatePicker" />
+
+
+    <android.widget.Button
+        android:id = "@+id/createEventButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Create Event"
+        app:layout_constraintTop_toBottomOf = "@id/eventTimePicker"
+        style = "@style/loginButtons"
+        android:onClick="onCreateEventButtonClick"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
