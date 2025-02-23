@@ -10,6 +10,8 @@ My name is Justin Shatwell. This Capstone Project Portfolio completes my Compute
 - Project management experience
 - Ability to learn quickly
 
+
 To learn more about me, [click here](assessment.md)
 
-To see the code review, [click here](https://youtube.com)
+# About This Project
+For my Capstone Project, I was tasked with improving a program I created in a previous course. The revisions had to include improvements to the software engineering, the database, and the algorithms. I chose to upgrade a rudimentary cellphone app I created in my Mobile Architechure course. The first step in this process was to critique the original program and outline a plan of improvement. To see my full code review, please [click here](https://youtube.com).
