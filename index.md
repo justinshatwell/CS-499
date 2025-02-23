@@ -9,4 +9,4 @@ My name is Justin Shatwell. This Capstone Project Portfolio completes my Compute
 - Strong writing and editing skills
 - Project management experience
 - Ability to learn quickly
-To learn more about me, [click here](docs/self-assessment.md)
+To learn more about me, [click here](./docs/self-assessment.md)
