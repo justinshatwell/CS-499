@@ -28,4 +28,4 @@ The original program used a single SQLite database housed on the cellphone. The 
 ### Algorithm Improvements
 The layout of the original program was created using static XML pages. Given that the app would not know how many listings it would need to display, a more repsonsive layout was necessary. I removed all of the XML layouts and replaced them with layouts built dynamcially using Java. The pages use Constraint Layouts, which allow you to place items relative to the edges of the page or to other objects.
 
-To read the full project narrative, [click here]()
+To read the full project narrative, [click here](narrative.md)
